@@ -7,6 +7,8 @@ __all__ = ['parse_eventkey']
 
 
 def parse_eventkey(eventkey, event='subscribe', key_cast_func=None):
+    if not eventkey:
+        return ''
     if event == 'subscribe':
         eventkey = eventkey.split('_')[-1]
     # SCAN etc.

@@ -25,5 +25,5 @@ Method
 
 ::
 
-    def parse_eventkey(eventkey, event='subscribe'):
+    def parse_eventkey(eventkey, event='subscribe', key_cast_func=None):
 

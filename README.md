@@ -17,5 +17,5 @@ from pywe_event_message import parse_eventkey
 # Method
 
 ```python
-def parse_eventkey(eventkey, event='subscribe'):
+def parse_eventkey(eventkey, event='subscribe', key_cast_func=None):
 ```
